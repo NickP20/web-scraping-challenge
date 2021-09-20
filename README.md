@@ -9,7 +9,7 @@ I utilized a Jupyter Notebook, BeautifulSoup, Pandsas, and Requests/Splinter to 
 I scraped the mars news site to collect the latest news title and paragrpah text.
 
 #### JPL Mars Space Images
-I scraped the the featured space image site to pull the current full site featured image.
+I scraped the featured space image site to pull the current full site featured image.
 
 #### Mars Facts
 I utilized Pandas to scrape the table containing facts about Mars from the mars facts webpage
