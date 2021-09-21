@@ -54,9 +54,9 @@ def mars_image(browser):
 def mars_facts():
     url = 'https://galaxyfacts-mars.com/'
     tables = pd.read_html(url)
-    mars_df = tables[1]
-    mars_df.columns = ['fact', 'mars']
-    mars_df.set_index('fact', inplace=True)
+    mars_df = tables[0]
+    mars_df.columns = ['Description', 'Mars', 'Earth']
+    mars_df.set_index('Description', inplace=True)
     html_table = mars_df.to_html()
     html_table.replace('\n', '')
 
